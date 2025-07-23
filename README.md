@@ -14,7 +14,7 @@ A minimal React application that renders Highcharts JSON configurations as inter
 
 ## Live Demo
 
-🌐 **Live Demo**: [https://akshat.github.io/highchart-render](https://akshat.github.io/highchart-render)
+🌐 **Live Demo**: [https://akshat.github.io/highcharts-render](https://akshat.github.io/highcharts-render)
 
 ## Getting Started
 
@@ -130,7 +130,7 @@ The app comes with a sample temperature chart configuration that you can modify:
 ## Project Structure
 
 ```
-highchart-render/
+highcharts-render/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml          # GitHub Actions deployment
