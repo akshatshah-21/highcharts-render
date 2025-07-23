@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/highchart-render/static/css/main.8894273b.css",
-    "main.js": "/highchart-render/static/js/main.f5db56dd.js",
-    "index.html": "/highchart-render/index.html",
-    "main.8894273b.css.map": "/highchart-render/static/css/main.8894273b.css.map",
-    "main.f5db56dd.js.map": "/highchart-render/static/js/main.f5db56dd.js.map"
+    "main.css": "/highcharts-render/static/css/main.8894273b.css",
+    "main.js": "/highcharts-render/static/js/main.f5db56dd.js",
+    "index.html": "/highcharts-render/index.html",
+    "main.8894273b.css.map": "/highcharts-render/static/css/main.8894273b.css.map",
+    "main.f5db56dd.js.map": "/highcharts-render/static/js/main.f5db56dd.js.map"
   },
   "entrypoints": [
     "static/css/main.8894273b.css",
