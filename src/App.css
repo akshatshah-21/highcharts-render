@@ -1,0 +1,162 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.header p {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+
+.main-container {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.editor-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-right: 1px solid #e1e5e9;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.chart-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.editor-header,
+.chart-header {
+  padding: 8px 15px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e1e5e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editor-header h3,
+.chart-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.copy-button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.copy-button:hover {
+  background: #5a6fd8;
+  transform: translateY(-1px);
+}
+
+.copy-button.success {
+  background: #28a745;
+}
+
+.error-message {
+  margin-top: 8px;
+  padding: 8px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.editor-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.chart-container {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+}
+
+.error-display {
+  text-align: center;
+  color: #721c24;
+  background: #f8d7da;
+  padding: 30px;
+  border-radius: 6px;
+  border: 1px solid #f5c6cb;
+}
+
+.error-display p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+  
+  .editor-section,
+  .chart-section {
+    flex: none;
+    height: 50vh;
+  }
+  
+  .editor-section {
+    border-right: none;
+    border-bottom: 1px solid #e1e5e9;
+  }
+  
+  .header h1 {
+    font-size: 1.1rem;
+  }
+  
+  .header p {
+    font-size: 0.9rem;
+  }
+  
+  .editor-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  
+  .copy-button {
+    align-self: flex-end;
+  }
+} 
